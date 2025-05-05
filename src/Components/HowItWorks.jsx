@@ -90,6 +90,8 @@ const HowItWorks = () => {
               Manage your applications and track your job search progress.
             </p>
           </motion.div>
+
+        
         </div>
       </div>
     </section>

@@ -5,6 +5,7 @@ import JobSection from './Components/JobSection';
 import Calculate from './Components/Calculate';
 import Subscription from './Components/Subscription';
 import DocumentTitle from './Hook/DocumentTitle';
+import HowToWorkTo from './Components/HowToWorkTo';
 const fetchJobData=fetch('/jobdata.json').then(res=>res.json())
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
           <DocumentTitle title='Home | Job Box'></DocumentTitle>
   <Hero></Hero>
   <HowItWorks></HowItWorks>
-
+<HowToWorkTo></HowToWorkTo>
  <Suspense fallback={<div className='flex flex-col items-center'>
   <span className="loading loading-bars loading-lg"></span>
  </div>}>
