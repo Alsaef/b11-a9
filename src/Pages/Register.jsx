@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import DocumentTitle from '../Hook/DocumentTitle';
+// import DocumentTitle from '../Hook/DocumentTitle';
 import { FaEye, FaRegEyeSlash } from 'react-icons/fa';
 
 const Register = () => {
     const [showPassword, setShowPassword] = useState(false);
     return (
         <div>
-            <DocumentTitle title='Register | Job Box'></DocumentTitle>
+            {/* <DocumentTitle title='Register | Job Box'></DocumentTitle> */}
             <div className="hero  min-h-screen">
 
                 <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">

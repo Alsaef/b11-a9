@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import DocumentTitle from '../Hook/DocumentTitle';
+// import DocumentTitle from '../Hook/DocumentTitle';
 
 const Login = () => {
     return (
         <div>
-            <DocumentTitle title='Login | Job Box'></DocumentTitle>
+            {/* <DocumentTitle title='Login | Job Box'></DocumentTitle> */}
             <div className="hero  min-h-screen">
 
                 <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
